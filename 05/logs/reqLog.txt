@@ -1,0 +1,8 @@
+20240722	04:17:31	ef02adb5-bf59-4a41-82a7-6b159de89d82	/views/new-page.html	GET
+20240722	04:17:31	f5866c03-43ea-42c3-98b0-86df9221e55a	/css/style.css	GET
+20240722	04:17:31	b3a711c2-a3ba-4847-95e0-c8cfed7c8cf6	/img/justice.png	GET
+20240722	04:21:42	1ae62a4f-91a1-4c9a-a87f-f3bb3d4c6aed	/views/index.html	GET
+20240722	04:21:42	eb9793ef-511b-4224-8557-7b6bcebd0482	/css/style.css	GET
+20240722	04:22:45	672f397c-3567-455a-be10-6e4712a64d39	/views/index.html	GET
+20240722	04:23:16	8e70fad3-521b-466d-926c-b63850efbe82	/views/index.html	GET
+20240722	04:23:16	19e3ecea-69c3-4371-a4aa-b00d71b64cef	/css/style.css	GET
