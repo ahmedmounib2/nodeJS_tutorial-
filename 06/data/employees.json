@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "age": 28,
+    "email": "alice.johnson@example.com",
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "555-1234"
+      },
+      {
+        "type": "work",
+        "number": "555-4321"
+      }
+    ],
+    "isActive": true,
+    "registered": "2024-07-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "age": 35,
+    "email": "bob.smith@example.com",
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "555-2345"
+      },
+      {
+        "type": "work",
+        "number": "555-5432"
+      }
+    ],
+    "isActive": false,
+    "registered": "2024-06-15T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "firstName": "Carol",
+    "lastName": "Davis",
+    "age": 42,
+    "email": "carol.davis@example.com",
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "555-3456"
+      },
+      {
+        "type": "work",
+        "number": "555-6543"
+      }
+    ],
+    "isActive": true,
+    "registered": "2024-05-10T11:15:00Z"
+  },
+  {
+    "id": 6,
+    "firstName": "Frank",
+    "lastName": "Thomas",
+    "age": 37,
+    "email": "frank.thomas@example.com",
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "555-6789"
+      },
+      {
+        "type": "work",
+        "number": "555-9876"
+      }
+    ],
+    "isActive": true,
+    "registered": "2024-02-25T08:30:00Z"
+  },
+  {
+    "id": 7,
+    "firstName": "Grace",
+    "lastName": "Lee",
+    "age": 33,
+    "email": "grace.lee@example.com",
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "555-7890"
+      },
+      {
+        "type": "work",
+        "number": "555-0987"
+      }
+    ],
+    "isActive": false,
+    "registered": "2024-01-15T13:20:00Z"
+  }
+]
