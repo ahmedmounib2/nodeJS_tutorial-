@@ -87,3 +87,5 @@
 20240803	23:54:23	55ac5bf1-4827-4d3e-8720-9419da6e9e53	POST	undefined	/auth
 20240803	23:54:37	8a6953fe-be71-4d43-8a55-175fa79dc5ce	POST	undefined	/auth
 20240803	23:55:08	ce07c741-5fcc-4497-8dee-690529aff2c3	POST	undefined	/register
+20240806	17:49:43	6946443d-e52f-4d7b-9fef-006311157cc9	GET	undefined	/auth
+20240806	17:50:43	cc012f4f-498b-4135-8af0-35112be030aa	POST	undefined	/auth
