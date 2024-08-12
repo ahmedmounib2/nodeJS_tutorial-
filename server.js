@@ -13,8 +13,8 @@ const PORT = process.env.PORT || 3500;
 // custom middleware logger
 app.use(logger);
 
-// Handle options credentials check - before CORS!
-// andfetch cookies credentials requirement
+// Handle options credentials check - above CORS!
+// and fetch cookies credentials requirement
 app.use(credentials);
 
 // Cross Origin Resource Sharing
@@ -44,7 +44,7 @@ app.use('/refresh', require('./routes/api/refresh'));
 app.use('/logout', require('./routes/api/logout'));
 
 app.use(verifyJWT);
-app.use('/employees', require('./routes/api/employee'));
+app.use('/employees', require('./routes/api/employees'));
 
 app.all('*', (req, res)=> {
     res.status(404);

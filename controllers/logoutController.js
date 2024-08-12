@@ -16,12 +16,12 @@ const handleLogout = async (req, res) => {
     // is refresh token in db? 
     const foundUser = usersDB.users.find(person => person.refreshToken === refreshToken);
     if (!foundUser) {
-        res.clearCookie('jwt', { httponly: true });
+        res.clearCookie('jwt', { httpOnly: true });
         res.sendStatus(204);
     }
     
     // delete the refresh token in db
-    const otherUsers = usersDB.users.filter(person => person.refreshToken != foundUser.refreshToken);
+    const otherUsers = usersDB.users.filter(person => person.refreshToken !== foundUser.refreshToken);
     const currentUser = {...foundUser, refreshToken: ''};
     usersDB.setUsers([...otherUsers, currentUser]);
     await fsPromises.writeFile(
@@ -29,7 +29,7 @@ const handleLogout = async (req, res) => {
         JSON.stringify(usersDB.users)
     );
 
-    res.clearCookie('jwt', { httpOnly: true , sameSite: 'none', secure: true }); //secure: true -only serves https
+    res.clearCookie('jwt', { httpOnly: true , sameSite: 'None', secure: true }); //secure: true - only serves https
     res. sendStatus(204);
 }
 
