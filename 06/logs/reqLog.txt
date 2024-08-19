@@ -107,3 +107,5 @@
 20240819	02:05:31	4fd70648-2e1d-4b82-86fa-346d8c1b1dfb	GET	undefined	/favicon.ico
 20240819	02:05:36	b794eaba-aedc-4851-a8b0-2118380de05c	GET	undefined	/
 20240819	02:05:36	0e43a322-4a3a-466f-9ed9-f50ff52fef45	GET	undefined	/css/style.css
+20240819	12:23:40	9aeb42a9-849e-4ec7-aef7-c76f44fc5fe7	POST	undefined	/auth
+20240819	12:24:06	66fbb485-0c80-4139-afad-edcaa3268f30	POST	undefined	/register
